@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite" parallel="tests">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+	<test name="firefoxtest">
+		<classes>
+			<class name="com.durgasoft.parallelexecution.Test1" />
+			<class name="com.durgasoft.parallelexecution.Test2" />
+		</classes>
+	</test>
+
+	<test name="chrometest">
+		<classes>
+			<class name="com.durgasoft.parallelexecution.Test1" />
+			<class name="com.durgasoft.parallelexecution.Test2" />
+		</classes>
+	</test>
+
+</suite> 

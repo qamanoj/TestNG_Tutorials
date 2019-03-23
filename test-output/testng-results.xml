@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="291" started-at="2019-03-18T17:21:08Z" finished-at="2019-03-18T17:21:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="291" started-at="2019-03-18T17:21:08Z" finished-at="2019-03-18T17:21:08Z">
+      <class name="com.testng.dataprovider.Test1">
+        <test-method status="SKIP" signature="tc_1(java.lang.String, java.lang.String)[pri:0, instance:com.testng.dataprovider.Test1@46d56d67]" name="tc_1" duration-ms="0" started-at="2019-03-18T22:51:08Z" finished-at="2019-03-18T22:51:08Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URL' is required by @Test on method tc_1 but has not been marked @Optional or defined
+in C:\Users\Manoj Kumar\AppData\Local\Temp\testng-eclipse-601130857\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL' is required by @Test on method tc_1 but has not been marked @Optional or defined
+in C:\Users\Manoj Kumar\AppData\Local\Temp\testng-eclipse-601130857\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:154)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:451)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1270)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:985)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1075)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_1 -->
+        <test-method status="PASS" signature="tc_2(java.lang.String, java.lang.String)[pri:0, instance:com.testng.dataprovider.Test1@46d56d67]" name="tc_2" duration-ms="25" started-at="2019-03-18T22:51:08Z" data-provider="getdata" finished-at="2019-03-18T22:51:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[getfirstusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_2 -->
+        <test-method status="PASS" signature="tc_2(java.lang.String, java.lang.String)[pri:0, instance:com.testng.dataprovider.Test1@46d56d67]" name="tc_2" duration-ms="2" started-at="2019-03-18T22:51:08Z" data-provider="getdata" finished-at="2019-03-18T22:51:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[getsecondusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_2 -->
+        <test-method status="PASS" signature="tc_2(java.lang.String, java.lang.String)[pri:0, instance:com.testng.dataprovider.Test1@46d56d67]" name="tc_2" duration-ms="1" started-at="2019-03-18T22:51:08Z" data-provider="getdata" finished-at="2019-03-18T22:51:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[getthirdusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_2 -->
+      </class> <!-- com.testng.dataprovider.Test1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

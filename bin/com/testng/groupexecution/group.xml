@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+	<groups>
+		<run>
+			<include name="smoketest"/>
+			<include name="regrationtest"/>
+		</run>
+	</groups>
+	<test name="Test">
+		<classes>
+			<class name="com.testng.groupexecution.Test1" />
+			<class name="com.testng.groupexecution.Test2" />
+			<class name="com.testng.groupexecution.Test3" />
+		</classes>
+	</test>
+	
+	<test name="Test1">
+		<classes>
+			<class name="com.testng.groupexecution.Test1" />
+			<class name="com.testng.groupexecution.Test2" />
+			<class name="com.testng.groupexecution.Test3" />
+		</classes>
+	</test>
+	
+</suite>

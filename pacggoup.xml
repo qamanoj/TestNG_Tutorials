@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <groups>
+		<run>
+			<include name="smoketest"/>
+			<include name="regrationtest"/>
+		</run>
+	</groups>
+    <classes>
+      <class name="pac1.CreateUser"/>
+      <class name="pac2.ReportUser"/>
+      <class name="pac3.ModifyUser"/>
+    </classes>
+  </test>
+</suite>
